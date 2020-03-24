@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Feedback</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" /> 
+
+</head>
+<body style="background-color:lightgrey;">
+
+<nav class="navbar navbar-expand-sm bg-light navbar-light" style="margin-top: 50px;">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+    <img src="/static/airtel-logo-white-text-horizontal.jpg" alt="logo" style="width:100px;">
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+  </ul>
+</nav>
+
+<div class="container" style="background-color:white ; margin-top: 50px;width:400px; border-radius: 50px" > 
+  <form class="form-horizontal" action = "/savedetails121"  method="post"  enctype="multipart/form-data" >
+    <div class="form-group">
+      <label class="control-label col-sm-10" for="Name" style="padding-top:15px">Name:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="Name" placeholder="Enter Name" name="Name" >
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-10" for="Age">id:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" id="id1" placeholder="Enter id" name="id1">
+      </div>
+    </div>
+
+        <div class="form-group">
+      <label class="control-label col-sm-10" for="Email">Email:</label>
+      <div class="col-sm-10">          
+        <input type="email" class="form-control" id="Email" placeholder="Enter Email" name="Email">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-10" for="pwd">tool:</label>
+      <div class="col-sm-10">
+        <select id="mySelect" name = "tools">
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+      <option value="D">D</option>
+    </select>
+    </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-10" for="rpwd">feedback</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" id="feedback" placeholder="Enter feedback" name="feedback">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-10" for="rpwd">incase</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" id="incase" placeholder="Enter incase" name="incase">
+      </div>
+    </div>
+     
+
+    <!--  <div class="form-group">  
+     
+      <div class="col-sm-offset-2 col-sm-3">
+      	<div class="align-self-center mx-auto">
+        <button type="submit" value="Submit"> Submit</button>
+      </div>
+</div>
+    </div>
+ --> 
+        <div class="text-center"> 
+            <button type="submit" class="btn btn-default float" style="border: 2px solid red;">Submit</button>  
+        </div> 
+
+  </form>
+</div>
+
+</body>
+</html>
