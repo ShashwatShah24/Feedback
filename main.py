@@ -29,7 +29,7 @@ def saveDetails121():
 		con.commit()
 		print("commit")
 		msg="feedback success"
-		return render_template("feedback.html",msg=msg)
+		return render_template("success01.html",msg=msg)
 
 
 
