@@ -20,11 +20,11 @@
     <a class="navbar-brand" href="#">
       <img src="/static/red-classic-plus-sign-rAWXVO3-600.jpg" alt="logo" style="width:100px;">
     </a>
-
+    <h1> </h1>
     <!-- Links -->
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="/" style="color: black;"><h1>Shah Clinic </h1></a>
+        <a class="nav-link" href="/" style="color: black;"><h1>Shah Clinic</h1></a>
       </li> 
     </ul>
 
@@ -32,7 +32,7 @@
   </nav>
 
   <div class="container" style="background-color:white ; margin-top: 50px;width:400px; border-radius: 50px">
-    <form class="form-horizontal" action="/savedetails121" method="post" enctype="multipart/form-data">
+    <form class="form-horizontal" action="/savedetails122" method="post" enctype="multipart/form-data">
       <div class="form-group">
         <label class="control-label col-sm-10" for="Name" style="padding-top:15px">Patient Name:</label>
         <div class="col-sm-10">
@@ -81,7 +81,6 @@
           <input type="text" class="form-control" id="Fees" placeholder="Enter Fees" name="Fees">
         </div>
       </div>
-  
 
 
   <div class="form-group">
@@ -95,9 +94,21 @@
   </div>
 
   <div class="form-group">
-    <label class="control-label col-sm-10" for="Diagnosis">Diagnosis :</label>
+    <label class="control-label col-sm-10" for="LMP">LMP :</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="Diagnosis" placeholder="Enter Diagnosis" name="Diagnosis">
+      <input type="text" class="form-control" id="LMP" placeholder="Enter LMP" name="LMP">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-10" for="EDD">EDD :</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="EDD" placeholder="Enter EDD" name="EDD">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-10" for="G_OR_P">G_OR_P :</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="G_OR_P" placeholder="Enter G_OR_P" name="G_OR_P">
     </div>
   </div>
 
@@ -108,6 +119,15 @@
     </div>
   </div>
 
+  <!--  <div class="form-group">  
+     
+      <div class="col-sm-offset-2 col-sm-3">
+      	<div class="align-self-center mx-auto">
+        <button type="submit" value="Submit"> Submit</button>
+      </div>
+</div>
+    </div>
+ -->
   <div class="text-center">
     <button type="submit" class="btn btn-default float" style="border: 2px solid red;">Submit</button>
   </div>
